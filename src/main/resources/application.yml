@@ -1,0 +1,12 @@
+server:
+  port: 9112
+
+spring:
+  application:
+    name: ms-reviews
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8710/eureka/
